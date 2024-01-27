@@ -142,7 +142,7 @@
 // *************------------------------
 
 
-// var number = [10, 20, 30, 40, 50, 55];
+var number = [10, 20, 30, 40, 50, 55];
 
 // to search index of 40
 // console.log(number.indexOf(40));
@@ -162,13 +162,13 @@
 // splice method = splice () 1.  start , 2. deletecount 3. element1 4. element2
 
 
-var number = [10, 20, 30, 40, 50, 55];
-number.splice(2, 1);
+// var number = [10, 20, 30, 40, 50, 55];
+// number.splice(2, 1);
 
 // 30 number is delete
 
-number.splice(2, 1, 100 , 200);
+// number.splice(2, 1, 100 , 200);
 //30 number is delete , then add 100 , 200 replacing 30
 
-number.splice(2, 0, 100 , 200);
+// number.splice(2, 0, 100 , 200);
 //30 number is not delete , then add 100 , 200 before 30

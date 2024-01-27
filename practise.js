@@ -84,4 +84,44 @@ var number = [10, 20, 30, 40, 50, 55];
 // console.log(Array.isArray(number));
 // var age = 15;
 // console.log(Array.isArray(age));
+// Adds all the elements of an array into a string, separated by the specified separator string.
+// apps =['insta' 'mess' 'google' 'youtube']
+// apps.join('+');
+// console.log(apps);
+// concat() = Combines two or more arrays. This method returns a new array without modifying any existing arrays.
+// var age = [25, 30, 36, 65]
+// number.concat(age);
+// console.log(number);
+// slice() = Returns a copy of a section of an array. For both start and end, a negative index can be used to indicate an offset from the end of the array.
+// console.log(number);
+// console.log(number.slice(1, 4));
+// console.log(number.slice(2));
+// var x =number.slice(0 ,2).concat(number.slice(5));
+// console.log(x);
+
+// splice method = splice () 1.  start , 2. deletecount 3. element1 4. element2
+
+// var number = [10, 20, 30, 40, 50, 55];
+// number.splice(2, 1);
+// console.log(number);
+// 30 number is delete
+
+// number.splice(2, 3);
+// console.log(number);
+// 30, 40, 50 number is delete
+
+// number.splice(4,2)
+// console.log(number);
+
+// number.splice(2, 1, 100 , 200);
+// console.log(number);
+//30 number is delete , then add 100 , 200 replacing 30
+
+number.splice(2, 0, 100 , 200);
+console.log(number);
+//30 number is not delete , then add 100 , 200 before 30
+
+
+
+
 
