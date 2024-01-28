@@ -41,12 +41,32 @@
 
 // -----------------------------------------------------------------------
 
-Task-3
-Write a function called make_avg() which will take an array of integers and the size of that array and return the average of those values.
+// Task-3
+// Write a function called make_avg() which will take an array of integers and the size of that array and return the average of those values.
+
+// var make_avg =
+
+// ********------------------------------------
+// 01
+// Declare an array
+// Declare an array with 5 elements containing fruits
+// console log the 3rd index element
+// change the value of the 2nd index element to jambura
+// console log the final array
+
+var fruits = [ 'apple', 'banana', 'orange','lemon', 'guava'];
+// console.log( fruits[3]);
+// fruits[2] = 'jambura';
+// console.log(fruits);
+// ***************additional *************************
+var fruits_5 = fruits.push('pineaple', 'papya');
+// console.log(fruits_5);
+console.log(fruits);
+console.log(fruits.length);
 
 
 
 
-var make_avg =
+
 
 
