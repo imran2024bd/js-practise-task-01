@@ -1,17 +1,17 @@
 //----- variables   ==> container
 
 // Number
-var sunglassprice = 80;
+// var sunglassprice = 80;
 
 
 // string
 
-var subject = 'EEE';
+// var subject = 'EEE';
 
 
 //Boolean
 
-var passed = true;
+// var passed = true;
 
 
 // Naming convention
@@ -32,4 +32,5 @@ var passed = true;
 // * 5. Number 
 
 
-
+console.log(isNaN(29));
+console.log(isNaN("abc"));
