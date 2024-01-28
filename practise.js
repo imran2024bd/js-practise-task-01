@@ -28,3 +28,6 @@ else {
     console.log(" next");
 }
 
+console.log(typeof salary);
+console.log(typeof isBcs);
+
