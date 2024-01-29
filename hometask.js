@@ -169,9 +169,21 @@
 
 ///************----------*******************
 // Count Number of Words in a String
-var words = "One Two Three Four";
-var countWords = words.split("\\s").length;
-console.log(countWords);
+// var words = "One Two Three Four";
+// var countWords = words.split("\\s").length;
+// console.log(countWords);
+
+//************************************ */
+
+// Check Whether a Number is Even or Odd
+
+// var x = 25;
+// if (x % 2 == 0) {
+//     console.log('x' + " is even");
+//     }
+//     else{
+//         console.log('x'   +  "is odd");
+//     }
 
 // Task-1:
 // Count how many times a string has the letter a ?
@@ -185,4 +197,14 @@ console.log(countWords);
 
 // var letter = ['A','a','a','a','A','a','a','A','a','a','A']
 // letter.
+
+// Task-5:
+// Capitalize Every first Letter of each word in a String
+// Converts all the alphabetic characters in a string to uppercase.
+var bangladesh = 'i love my country bangladesh'
+console.log(bangladesh.toUpperCase());
+console.log(bangladesh.toLocaleUpperCase());
+var motherland = 'I LOVE MY COUNTRY BANGLADESH';
+console.log(motherland.toLowerCase());
+
 
