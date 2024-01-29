@@ -140,5 +140,49 @@
 // console.log(subject);
 
 
-*******-------------------**********************
+// *******-------------------**********************
+// 5. Combining Arrays
+// Instructions:
+// Create two arrays of your choice.
+// Use the concat method to combine the two arrays into a new array.
+// Print both the original arrays and the combined array using console.log().
+
+// var book = ['bangla','english','math','javascript'];
+// var number = [10, 20, 30, 40, 50, 55];
+// var new_array = book.concat(number);
+// console.log(book);
+// console.log(book.length);
+// console.log(number);
+// console.log(number.length);
+// console.log(new_array);
+// console.log(new_array.length);
+
+// *******-------------*************------------*******
+
+// ***********Add Two Numbers************
+// var x = 5;
+// console.log(x);
+// var y = 7;
+// console.log(y);
+// var sum = x + y;
+// console.log(sum);
+
+///************----------*******************
+// Count Number of Words in a String
+var words = "One Two Three Four";
+var countWords = words.split("\\s").length;
+console.log(countWords);
+
+// Task-1:
+// Count how many times a string has the letter a ?
+
+// var letter = ['a','a','a','a','a','a','a','a','a','a','a']
+// console.log(letter.length);
+
+// ***********-----------*****************
+// Task-2:
+// Count how many times a string has the letter a or A
+
+// var letter = ['A','a','a','a','A','a','a','A','a','a','A']
+// letter.
 
