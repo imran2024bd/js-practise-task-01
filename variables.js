@@ -8,7 +8,11 @@
 
 // var subject = 'EEE';
 
-
+// var book = ['bangla','english','math','javascript'];
+// var subject = 'EEE';
+// var Age = 38;
+// var number = [10, 20, 30, 40, 50, 55];
+//index    = [0 ,  1   2   3   4   5]
 //Boolean
 
 // var passed = true;

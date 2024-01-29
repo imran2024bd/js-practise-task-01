@@ -121,7 +121,30 @@ number.splice(2, 0, 100 , 200);
 console.log(number);
 //30 number is not delete , then add 100 , 200 before 30
 
+// --------**********---------------
+// includes () =>>>> Determines whether an array includes a certain element, returning true or false as appropriate.
+// if include , true
+// var book = ['bangla','english','math','javascript'];
+// book.includes('javascript');
+// console.log(book.includes('javascript'));
 
+// // if not include , false
+// var book = ['bangla','english','math','javascript'];
+// book.includes('mango');
+// console.log(book.includes('mango'));
+
+// *************---------------************************
+// Array.isArray() ;   Print the variable is Array or Not 
+
+var book = ['bangla','english','math','javascript'];
+var subject = 'EEE';
+var Age = 38;
+var number = [10, 20, 30, 40, 50, 55];
+//index    = [0 ,  1   2   3   4   5]
+
+console.log(Array.isArray(book));
+console.log(Array.isArray(Age));
+console.log(Array.isArray(number));
 
 
 
